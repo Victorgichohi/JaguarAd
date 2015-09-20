@@ -83,7 +83,7 @@ min-width: 100%;
 
 .fadeOut {
   animation-name: fadeOut;
-  -webkit-moz-animation-duration: 30s;
-  -webkit-animation-delay: 4s;
+  -webkit-moz-animation-duration: 600s;
+  -webkit-animation-delay: 40s;
 
 }
