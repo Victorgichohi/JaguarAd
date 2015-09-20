@@ -26,7 +26,7 @@ body {
 	}
 p{
 	font-size: 30px;
-	
+	font-family: 'Coda Caption';
 	
 	text-align: center;
 }
@@ -36,6 +36,7 @@ h1{
 .emphasizetop{
 	color: green;
 	font-size: 50px;
+	font-family: 'Coda Caption';
 }
 
 .wrap{
@@ -53,6 +54,7 @@ h1{
 .emphasize{
 	color: orange;
 	font-size: 80px;
+	font-family: Gruppo;
 }
 /*video css*/
 
@@ -72,4 +74,16 @@ top: 0;
 left: 0;
 min-height: 100%;
 min-width: 100%;
+}
+/*main.css*/
+@keyframes fadeOut {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+
+.fadeOut {
+  animation-name: fadeOut;
+  -webkit-moz-animation-duration: 30s;
+  -webkit-animation-delay: 4s;
+
 }
