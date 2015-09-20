@@ -22,3 +22,11 @@
     function newTyped(){ /* A new typed object */ }
 
     function foo(){ console.log("Callback"); }
+
+    //video js for delaying it
+    var video = document.getElementById("video-bg-elem");
+video.addEventListener("canplay", function() {
+  setTimeout(function() {
+    video.play();
+  }, 43000);
+});
