@@ -3,8 +3,8 @@
         $("#typed").typed({
             // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
             stringsElement: $('#typed-strings'),
-            typeSpeed: 90,
-            backDelay: 500,
+            typeSpeed: 150,
+            backDelay: 1000,
             loop: false,
             contentType: 'html', // or text
             // defaults to false for infinite loop

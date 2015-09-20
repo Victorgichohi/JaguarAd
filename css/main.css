@@ -30,6 +30,9 @@ p{
 	
 	text-align: center;
 }
+h1{
+	font-size:80px; 
+}
 
 .wrap{
 	max-width: 600px;
@@ -38,8 +41,12 @@ p{
 }
 
 .type-wrap{
-	font-size: 40px;
+	font-size: 60px;
 	color: rgb(226,149,232);
 	padding:60px;
 	
+}
+.emphasize{
+	color: orange;
+	font-size: 80px;
 }
