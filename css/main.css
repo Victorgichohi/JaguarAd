@@ -75,7 +75,7 @@ left: 0;
 min-height: 100%;
 min-width: 100%;
 }
-/*main.css*/
+/*animations.css*/
 @keyframes fadeOut {
   from {opacity: 1;}
   to {opacity: 0;}
@@ -86,4 +86,21 @@ min-width: 100%;
   -webkit-moz-animation-duration: 600s;
   -webkit-animation-delay: 40s;
 
+}
+@keyframes slideInUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInUp {
+  animation-name: slideInUp;
+  animation-name: fadeOut;
+  -webkit-moz-animation-duration: 600s;
+  -webkit-animation-delay: 40s;
 }
